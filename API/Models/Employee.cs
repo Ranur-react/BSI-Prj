@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace API.Models
@@ -25,7 +26,13 @@ namespace API.Models
         public String Phone { get; set; }
         public DateTime BirthDate { get; set; }
         public Gender Gender { get; set; }
+        [ForeignKey("Divisions")]
+        public string DivisionId { get; set; }
+        public virtual Division Division{ get; set; }
+        [JsonIgnore]
         public virtual Account Accounts { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<Pesanan> Pesanan { get; set; }
     }
     public enum Gender
     {

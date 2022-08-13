@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{632D02B3-D041-4556-876C-553D7C78008F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{632D02B3-D041-4556-876C-553D7C78008F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E- Car", "E- Car\E- Car.csproj", "{B73E95B5-F013-4C5E-8C24-C93A48F5EBFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{632D02B3-D041-4556-876C-553D7C78008F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632D02B3-D041-4556-876C-553D7C78008F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632D02B3-D041-4556-876C-553D7C78008F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73E95B5-F013-4C5E-8C24-C93A48F5EBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73E95B5-F013-4C5E-8C24-C93A48F5EBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73E95B5-F013-4C5E-8C24-C93A48F5EBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73E95B5-F013-4C5E-8C24-C93A48F5EBFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
